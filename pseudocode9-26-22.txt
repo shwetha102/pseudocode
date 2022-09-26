@@ -1,0 +1,238 @@
+
+    1. Write a pseudocode to print "welcome to Java"
+
+  Begin
+  Display "welcome to java";
+  end
+
+2. Write a pseudocode to print addition oftwo numbers.
+
+Begin
+numeric n1, n2, and sum
+Display "enter n1 value";
+input n1
+Display "enter n2 value";
+input n2
+sum=n1+n2;
+Display "addition of two numbers:"sum;
+end
+
+
+3. Write a pseudocode to accept two numbers and print addition, substraction, multiplication and division.
+
+Begin 
+numeric n1, n2, addition, subtraction, multiplication,and division
+Display "enter n1 value";
+input n1
+Display "enter n2 value";
+input n2
+addition= n1+n2;
+subtraction = n1-n2;
+multiplication = n1*n2;
+division = n1/n2;
+
+Display "addition:";
+Display "subtraction:";
+Display "multiplication:";
+Display "division:";
+end 
+
+4. Write a pseudocode to accept 3 subjects marks and print total and avg marks.
+
+Begin
+numeric s1,s2,s3,total and avg
+Display "enter first subject marks:";
+input s1
+Display "enter second subject marks:"; 
+input s2
+Display "enter third subject marks:";
+input s3
+total=s1+s2+s3
+avg=total/3
+
+Display "total marks:"total;
+
+Display "avg marks:" avg;
+end
+
+5. Write a pseudocode to accept basic salary and find gross salary.
+gs=basic+hra+da;
+
+Hra is 89% on basic and Da is 78% on Basic.
+
+Begin
+numeric bs, gs, hra, da
+Display "enter basic salary:";
+input bs
+hra= (bs*89)/100;
+da= (bs*78)/100;
+gs=hra+da+bs
+Display "gross salary:"gs
+end
+
+6. Write a pseudocode to accept salary and 3 shopping bills and find total shopping amount and how much percentage of amount the employee is spending on shopping on his/her salary.
+Salary: 10000
+bill1: 2000
+bill2: 3000
+bill3: 1000
+total: 6000
+percentage: 60% on salary.
+
+Begin
+numeric salary,b1,b2,b3,total,percentage
+Display "enter the salary:";
+input salary
+display "enter the 1st bill:";
+input b1
+display "enter the 2nd bill:";
+input b2
+display "enter the 3rd bill:";
+input b3
+
+total=b1+b2+b3;
+percentage= (salary*60)/100;
+
+Display "total of bill:"total
+Display "percentage:"
+end
+
+
+7. Write a pseudocode to acceptnumber and check it is +ve or -ve
+
+Begin
+numeric num
+Display "enter the number:";
+input num
+if (num>=0)
+begin
+Display "possitive";
+end
+else
+begin
+Display "negative";
+end
+end
+
+8. Write a pseudocode to acceptnumber and check it is even or odd or zero
+
+Begin
+numeric num
+Display "enter any number:";
+input num
+if (num%2==0)
+begin
+Display "even";
+end
+else if
+begin
+Display "odd";
+end
+else
+begin
+Display "zero";
+end
+end
+
+9. Write a pseudocode to acceptage and check he/she is eligible for voting or not
+Begin
+numeric age
+Display "enter the age:";
+input age
+if (age>=18)
+begin
+Display "eligible for voting";
+end
+else
+begin
+Display "not eligible for voting";
+end
+end
+
+10. Write a pseudocode to acceptmarks and check it is valid or not.[valid marks: 0 to 100]
+
+Begin
+numeric marks
+Display "enter the marks:";
+input marks
+if (marks>=50)
+begin
+Display "valid";
+end
+else
+begin
+Display "not valid";
+end
+end
+
+11. Write a pseudocode to accept 3 numbers and print largest number
+
+Begin
+numeric n1,n2,n3
+Display "enter 1st number:";
+input n1
+Display "enter 2nd number:";
+input n2
+Display "enter 3rd number:";
+input n3
+
+if(n1>n3)
+begin
+Display "n1";
+end
+else
+begin
+Display "n3";
+else if(n2>n3)
+begin
+Display "n2";
+end
+else 
+begin
+Display "n3";
+end
+end
+
+12. Write a pseudocode to accept week number and print week day
+
+Begin
+numeric week_num
+Display "enter the week num:";
+Display "week day:";
+input week_num
+if(week_num==1)
+begin
+Display "1st day of week Monday:";
+end
+else if(week_num==2)
+begin
+Display "2nd day of week Tuesday:";
+end
+else if(week_num==3)
+begin
+Display "3rd day of week Wednesday:";
+end
+else if(week_num==4)
+begin
+Display "4th day of week Thursday:";
+end
+else if(week_num==5)
+begin
+Display "5th day of week Friday:";
+end
+else if(week_num==6)
+begin
+Display "6th day of week Saturday:";
+end
+else if(week_num==7)
+begin
+Display "7th day of week Sunday:";
+end
+else
+begin
+Display "invalid:";
+end
+end
+
+
+
+
